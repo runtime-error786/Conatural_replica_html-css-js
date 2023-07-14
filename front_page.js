@@ -41,3 +41,9 @@ let g = document.getElementById("w1");
 g.addEventListener("click" , function(){
     location.reload();
 });
+
+let c1  = document.getElementById("c1");
+c1.addEventListener("click" , function(){
+    let g = document.getElementById("h3");
+    g.style.display = "none";
+});
