@@ -3,6 +3,4 @@
 -> put button
 -> move next and prev
 -> make three dots
-// https://conaturalintl.com/cdn/shop/files/op_232.png
-// https://conaturalintl.com/cdn/shop/files/2_7758d563-199c-44b8-9f6e-e2da31e9ed8b.png
-// https://conaturalintl.com/cdn/shop/files/banner_1_for_men.png
+<img src=" https://conaturalintl.com/cdn/shop/files/banner_1_for_men.png" width="100%">
