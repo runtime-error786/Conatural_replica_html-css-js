@@ -247,3 +247,41 @@ rq8.addEventListener("mouseenter" , function()
     rr1.style.display = "block";
 });
 
+let df = document.getElementById("im1");
+
+    setInterval(function()
+    {
+        gloa +=1;
+    if(gloa==1)
+    {
+        df.innerHTML =' <a target="_blank" href="https://www.youtube.com"><img src=" https://conaturalintl.com/cdn/shop/files/2_7758d563-199c-44b8-9f6e-e2da31e9ed8b.png" width="100%" id="w111"/></a>';
+        console.log("link");
+        let rq01 = document.getElementById("mus1");
+        let rq02 = document.getElementById("mus2");
+        let rq03 = document.getElementById("mus3");
+        rq01.style.backgroundColor="black";
+        rq02.style.backgroundColor="grey";
+        rq03.style.backgroundColor="grey";
+    }
+    else if(gloa==2)
+    {
+        
+        df.innerHTML =' <img src=" https://conaturalintl.com/cdn/shop/files/banner_1_for_men.png" width="100%"></img>';
+        let rq01 = document.getElementById("mus1");
+        let rq02 = document.getElementById("mus2");
+        let rq03 = document.getElementById("mus3");
+        rq01.style.backgroundColor="grey";
+        rq02.style.backgroundColor="black";
+        rq03.style.backgroundColor="grey";
+    }
+    else{
+        df.innerHTML ='<img src="https://conaturalintl.com/cdn/shop/files/op_232.png?v=1689235122&width=2200%202200w" width="100%"></img>';
+        gloa=0;
+        let rq01 = document.getElementById("mus1");
+        let rq02 = document.getElementById("mus2");
+        let rq03 = document.getElementById("mus3");
+        rq01.style.backgroundColor="grey";
+        rq02.style.backgroundColor="grey";
+        rq03.style.backgroundColor="black";
+    }
+    } , 20000);
