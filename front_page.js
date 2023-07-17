@@ -466,10 +466,19 @@ let df = document.getElementById("im1");
         }
         glob+=1;
     });
-
     
-let d = document.getElementById("fer1");
-d.addEventListener("click" , function()
-{
-    console.log("gggg");
-});
+    let comp1 = document.getElementById("i1");
+    let comp2 = comp1.src;
+    let comp3 = document.getElementById("i1");
+    comp1.addEventListener("mouseenter" , function()
+    {
+        console.log("hello my grid" , comp2);
+        comp1.src = "https://conaturalintl.com/cdn/shop/products/BESTSELLERSAFFRON.jpg";
+    });
+
+    comp3.addEventListener("mouseout" , function()
+    {
+        console.log("hello my grid out");
+        comp1.src = comp2;
+    });
+

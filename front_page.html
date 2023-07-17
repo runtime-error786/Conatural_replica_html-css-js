@@ -204,7 +204,8 @@
        #h4{
         position: sticky;
         background-color: white;
-        top:0px
+        top:0px;
+        z-index: 3;
        }
        
        #im2{
@@ -332,20 +333,45 @@
        }
 
        #sld1{
-        display: flex;
+        display:inline-block;
         margin-left: 200px;
         margin-right: 200px;
         z-index: -1;
+        
        }
-
-       .move{
-        width: 500px;
+       
+       #fer1{
+        display:inline-block;
+        width: 240px;
         height: 270px;
-        border: 2px solid black;
-        overflow: hidden;
-        z-index: -1;
        }
-
+       #fer2{
+        display:inline-block;
+        width: 240px;
+        height: 270px;
+       }
+       #fer3{
+        display:inline-block;
+        width: 240px;
+        height: 270px;
+       }
+       #fer4{
+        display:inline-block;
+        width: 240px;
+        height: 270px;
+       }
+       #fer5{
+        display:inline-block;
+        width: 240px;
+        height: 270px;
+       }
+       #fer6{
+        display:inline-block;
+        width: 240px;
+        height: 270px;
+       }
+       
+       
        #fer5{
         display: none;
        }
@@ -361,25 +387,22 @@
        #prev2{
         position: absolute;
         left: 200px;
-        top:1100px;
+        top:1035px;
        }
 
        #next2{
         position: absolute;
-        right: 200px;
-        top:1100px;
+        right: 270px;
+        top:1035px;
        }
 
-       #fer5{
-        display: none;
-       }
-
-       #fer6{
-        display: none;
-       }
-
+      
        .cmp{
         z-index: 2;
+       }
+
+       .sp{
+        margin-left: 30px;
        }
 </style>
 <body>
@@ -496,21 +519,21 @@
 <div class="move" id="fer1">
     <img src="https://conaturalintl.com/cdn/shop/products/Saffronface2_eca5cee2-47ab-458c-a638-c08582e7d5b8.jpg" width="100%" id="i1">
 </div>
-<div class="move" id="fer2">
+<div class="move sp" id="fer2">
 <img src="https://conaturalintl.com/cdn/shop/products/Intensegrowthface.jpg" width="100%" id="i2">
 </div>
-<div class="move" id="fer3">
+<div class="move sp" id="fer3">
     <img src="https://conaturalintl.com/cdn/shop/products/Teatreefacewashface.jpg" width="100%" id="i3">
 </div>
-<div class="move" id="fer4">
+<div class="move sp" id="fer4">
     <img src="https://conaturalintl.com/cdn/shop/products/1.-Bottle-Front_c1abd5c4-9cf3-43e3-94ce-80d7e83b4d9a.jpg?v=1664791505&width=900" width="100%" id="i4">
 </div>
 
-<div class="move" id="fer5">
+<div class="move sp" id="fer5">
     <img src="https://conaturalintl.com/cdn/shop/products/Rosefacewashface.jpg" width="100%" id="i5">
 </div>
 
-<div class="move" id="fer6">
+<div class="move " id="fer6">
     <img src="https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg" width="100%" id="i6">
  </div>
 
