@@ -1,5 +1,0 @@
--> place image
--> first put three images into three variables
--> put button
--> move next and prev
--> make three dots
