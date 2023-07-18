@@ -4,7 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/5ffdf7bf08.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Agdasima&family=Caprasimo&family=Inter:wght@300&family=Montserrat:ital,wght@1,600&family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
     <title>Document</title>
 </head>
 <style>
@@ -334,40 +338,40 @@
 
        #sld1{
         display:inline-block;
-        margin-left: 200px;
-        margin-right: 200px;
+        margin-left: 150px;
+        margin-right: 150px;
         z-index: -1;
         
        }
        
        #fer1{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        #fer2{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        #fer3{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        #fer4{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        #fer5{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        #fer6{
         display:inline-block;
-        width: 240px;
+        width: 280px;
         height: 270px;
        }
        
@@ -385,31 +389,96 @@
        }
 
        #prev2{
+        
         position: absolute;
-        left: 200px;
+        left: 150px;
         top:1035px;
+        animation-name: lo3;
+        animation-duration: 1.25s;
+        transition-duration: 3s;
+        transition-timing-function: ease-out;
+        background-color: #01a3a4;
+        color: white;
+        font-size: x-large;
+        width: 40px;
+       }
+
+       @keyframes lo3 {
+        from{
+            left : 200px;
+        }
+        to{
+            left: 150px;
+        }
        }
 
        #next2{
+        
         position: absolute;
-        right: 270px;
+        right: 180px;
         top:1035px;
+        animation-name: lo4;
+        animation-duration: 1.25s;
+        transition-duration: 3s;
+        transition-timing-function: ease-out;
+        background-color: #01a3a4;
+        color: white;
+        font-size: x-large;
+        width: 40px;
        }
 
+       @keyframes lo4 {
+        from{
+            right : 220px;
+        }
+        to{
+            right: 180px;
+        }
+       }
       
        .cmp{
         z-index: 2;
        }
 
        .sp{
-        margin-left: 30px;
+        margin-left: 20px;
+       }
+
+       #sld1{
+        width: 85%;
+        height: 350px;
+        
+       }
+       
+       .mj{
+        text-align: center;
+       }
+
+       .se{
+        z-index: 0;
+        position: absolute;
+       }
+
+       #ss0{
+        margin-top: -283px;
+        margin-left: 120px;
+        font-size: x-large;
+       }
+
+       #i1{
+        z-index: -1;
+       }
+
+       #sw{
+        border: 10px solid black;
        }
 </style>
 <body>
 
     <div id="h3">
         <div id="h1">
-            Our 2 New Shampoos are Now Available to Shop!
+           
+                Our 2 New Shampoos are Now Available to Shop!
         </div>
         <div id="c1">
             x close
@@ -448,7 +517,6 @@
             Follow us on Youtube
         </div>
         </div>
-        
         
         <img src="re.png" id="w1" class="b1" width="300px" height="25px">
 
@@ -518,30 +586,71 @@
 <div id="sld1">
 <div class="move" id="fer1">
     <img src="https://conaturalintl.com/cdn/shop/products/Saffronface2_eca5cee2-47ab-458c-a638-c08582e7d5b8.jpg" width="100%" id="i1">
+    <div id="dwq" class="mj">
+        Saffron Complexion Builder
+    </div>
+    <div id="dwq1" class="mj">
+        Rs.2,625
+    </div>
+    <div id="ss0" class="se">
+        <i class="fa-regular fa-heart" id="ss0" class="se">        
+        </i>
+    </div>
+    <div class="glyphicon glyphicon-wrench" id="ss1" class="se"></div>
 </div>
 <div class="move sp" id="fer2">
 <img src="https://conaturalintl.com/cdn/shop/products/Intensegrowthface.jpg" width="100%" id="i2">
+<div id="dwq2" class="mj">
+    Intense Growth Hair Oil
 </div>
+<div id="dwq3" class="mj">
+    Rs.2,400
+</div>
+
+</div>
+
 <div class="move sp" id="fer3">
     <img src="https://conaturalintl.com/cdn/shop/products/Teatreefacewashface.jpg" width="100%" id="i3">
+    <div id="dwq4" class="mj">
+        Tea Tree & Neem Face Wash
+    </div>
+    <div id="dwq5" class="mj">
+        From Rs.435
+    </div>
 </div>
 <div class="move sp" id="fer4">
     <img src="https://conaturalintl.com/cdn/shop/products/1.-Bottle-Front_c1abd5c4-9cf3-43e3-94ce-80d7e83b4d9a.jpg?v=1664791505&width=900" width="100%" id="i4">
+    <div id="dwq6" class="mj">
+        Vitamin C - Super Activs Skin Serum
+        </div>
+    <div id="dwq7" class="mj">
+        Rs.1,199
+    </div>
 </div>
 
 <div class="move sp" id="fer5">
     <img src="https://conaturalintl.com/cdn/shop/products/Rosefacewashface.jpg" width="100%" id="i5">
+    <div id="dwq8" class="mj">
+        Rose Face Wash        </div>
+    <div id="dwq9" class="mj">
+        From Rs.485
+    </div>
 </div>
 
 <div class="move " id="fer6">
+    
     <img src="https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg" width="100%" id="i6">
- </div>
+    <div id="dwq10" class="mj">
+        Hair Growth Shampoo       </div>
+    <div id="dwq11" class="mj">
+        Rs.1,615
+    </div>
+</div>
 
 </div>
 <button id="next2" class="bu12">></button>
 <button id="prev2" class="bu12"><</button>
 
 <script src="front_page.js"></script>
-
 </body>
 </html>
