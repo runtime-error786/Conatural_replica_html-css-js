@@ -621,8 +621,3 @@ let df = document.getElementById("im1");
             comp16.src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
         });
     } , 0);
-
-    
-    
-    
-   
