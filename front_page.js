@@ -1431,7 +1431,6 @@ document.getElementById("next2").classList.add("sho");
       });
     } , 0);
 
-
     setInterval(function()
     {
         let rd3 = document.getElementById("prev2");
@@ -1444,6 +1443,7 @@ document.getElementById("next2").classList.add("sho");
       
       document.getElementById("next2").classList.add("sho1");
       document.getElementById("prev2").classList.add("sho1");
+      
 
     });
 
