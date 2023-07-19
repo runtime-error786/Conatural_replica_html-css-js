@@ -602,7 +602,6 @@ let df = document.getElementById("im1");
         document.getElementById("ss2").classList.add("sho1");
         document.getElementById("ss3").classList.add("sho1");
         document.getElementById("g2").classList.add("sho1");
-
            document.getElementById("i2").src = "https://conaturalintl.com/cdn/shop/products/Intensegrowth.jpg";
 
       });
@@ -1181,9 +1180,4 @@ let df = document.getElementById("im1");
         document.getElementById("i6").src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
     
       });
-
-
-
     } , 0);
-
-    
