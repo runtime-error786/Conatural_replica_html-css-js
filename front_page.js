@@ -1484,3 +1484,107 @@ document.getElementById("next2").classList.add("sho");
   });
 
     } , 0);
+
+    setInterval(
+        function()
+        {
+            console.log("hello hraet--------------------------");
+            let rt = document.getElementById("ss0");
+            let flag = false;
+            rt.addEventListener("click" , function()
+            {
+                if(flag==false)
+                {
+                    rt.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag = true;
+        
+                }
+                else{
+                    rt.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag = false;
+                }
+            });
+            
+            let rt2 = document.getElementById("ss2");
+            let flag2 = false;
+            rt2.addEventListener("click" , function()
+            {
+                if(flag2==false)
+                {
+                    rt2.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag2 = true;
+        
+                }
+                else{
+                    rt2.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag2 = false;
+                }
+            });
+            
+            let rt4 = document.getElementById("ss4");
+            let flag4 = false;
+            rt4.addEventListener("click" , function()
+            {
+                if(flag4==false)
+                {
+                    rt4.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag4 = true;
+        
+                }
+                else{
+                    rt4.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag4 = false;
+                }
+            });
+            
+            let rt6 = document.getElementById("ss6");
+            let flag6 = false;
+            rt6.addEventListener("click" , function()
+            {
+                if(flag6==false)
+                {
+                    rt6.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag6 = true;
+        
+                }
+                else{
+                    rt6.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag6 = false;
+                }
+            });
+            
+            let rt8 = document.getElementById("ss8");
+            let flag8 = false;
+            rt8.addEventListener("click" , function()
+            {
+                if(flag8==false)
+                {
+                    rt8.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag8 = true;
+        
+                }
+                else{
+                    rt8.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag8 = false;
+                }
+            });
+        
+            let rt10 = document.getElementById("ss10");
+            let flag10 = false;
+            rt10.addEventListener("click" , function()
+            {
+                if(flag10==false)
+                {
+                    rt10.innerHTML = '<i class="fa-solid fa-heart"></i>';
+                    flag10 = true;
+        
+                }
+                else{
+                    rt10.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
+                    flag10 = false;
+                }
+            } );
+                
+        } , 0
+    );
+    
