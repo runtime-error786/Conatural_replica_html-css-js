@@ -485,6 +485,44 @@ let df = document.getElementById("im1");
             comp1.src = "https://conaturalintl.com/cdn/shop/products/Saffronface2_eca5cee2-47ab-458c-a638-c08582e7d5b8.jpg";
         });
 
+        let rd = document.getElementById("ss0");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("i1").src = "https://conaturalintl.com/cdn/shop/products/BESTSELLERSAFFRON.jpg";
+        document.getElementById("ss0").classList.remove("sho");
+            document.getElementById("ss1").classList.remove("sho");
+            document.getElementById("ss0").classList.add("sho1");
+            document.getElementById("ss1").classList.add("sho1");
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss0").classList.remove("sho1");
+        document.getElementById("ss1").classList.remove("sho1");
+        document.getElementById("ss0").classList.add("sho");
+        document.getElementById("ss1").classList.add("sho");
+        document.getElementById("i1").src = "https://conaturalintl.com/cdn/shop/products/Saffronface2_eca5cee2-47ab-458c-a638-c08582e7d5b8.jpg";
+      });
+
+      let rd1 = document.getElementById("ss1");
+        rd1.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("i1").src = "https://conaturalintl.com/cdn/shop/products/BESTSELLERSAFFRON.jpg";
+        document.getElementById("ss0").classList.remove("sho");
+            document.getElementById("ss1").classList.remove("sho");
+            document.getElementById("ss0").classList.add("sho1");
+            document.getElementById("ss1").classList.add("sho1");
+      });
+
+      rd1.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss0").classList.remove("sho1");
+        document.getElementById("ss1").classList.remove("sho1");
+        document.getElementById("ss0").classList.add("sho");
+        document.getElementById("ss1").classList.add("sho");
+        document.getElementById("i1").src = "https://conaturalintl.com/cdn/shop/products/Saffronface2_eca5cee2-47ab-458c-a638-c08582e7d5b8.jpg";
+      });
+
     } , 0);
     
     setInterval(function()
@@ -513,6 +551,53 @@ let df = document.getElementById("im1");
             comp11.src = "https://conaturalintl.com/cdn/shop/products/Intensegrowthface.jpg" ;
         });
   
+        let rd = document.getElementById("ss2");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss2").classList.remove("sho");
+            document.getElementById("ss3").classList.remove("sho");
+            document.getElementById("ss2").classList.add("sho1");
+            document.getElementById("ss3").classList.add("sho1");
+            
+           document.getElementById("i2").src = "https://conaturalintl.com/cdn/shop/products/Intensegrowth.jpg";
+
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss2").classList.remove("sho1");
+            document.getElementById("ss3").classList.remove("sho1");
+            document.getElementById("ss2").classList.add("sho");
+            document.getElementById("ss3").classList.add("sho");
+            
+            document.getElementById("i2").src  = "https://conaturalintl.com/cdn/shop/products/Intensegrowthface.jpg" ;
+        
+      });
+
+      let rd1 = document.getElementById("ss3");
+        rd1.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss2").classList.remove("sho");
+            document.getElementById("ss3").classList.remove("sho");
+            document.getElementById("ss2").classList.add("sho1");
+            document.getElementById("ss3").classList.add("sho1");
+            
+           document.getElementById("i2").src = "https://conaturalintl.com/cdn/shop/products/Intensegrowth.jpg";
+
+      });
+
+      rd1.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss2").classList.remove("sho1");
+            document.getElementById("ss3").classList.remove("sho1");
+            document.getElementById("ss2").classList.add("sho");
+            document.getElementById("ss3").classList.add("sho");
+            
+            document.getElementById("i2").src  = "https://conaturalintl.com/cdn/shop/products/Intensegrowthface.jpg" ;
+        
+      });
+
+
     } , 0);
 
     setInterval(function()
@@ -541,6 +626,52 @@ let df = document.getElementById("im1");
 
         });
   
+        let rd = document.getElementById("ss4");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss4").classList.remove("sho");
+            document.getElementById("ss5").classList.remove("sho");
+            document.getElementById("ss4").classList.add("sho1");
+            document.getElementById("ss5").classList.add("sho1");
+            
+           document.getElementById("i3").src= "https://conaturalintl.com/cdn/shop/products/Teatreefw_10f48fb1-7304-4906-89a0-a9b5b66819d6.jpg";
+
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss4").classList.remove("sho1");
+        document.getElementById("ss5").classList.remove("sho1");
+        document.getElementById("ss4").classList.add("sho");
+        document.getElementById("ss5").classList.add("sho");
+        
+        document.getElementById("i3").src = "https://conaturalintl.com/cdn/shop/products/Teatreefacewashface.jpg";
+
+      });
+
+      let rd1 = document.getElementById("ss5");
+        rd1.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss4").classList.remove("sho");
+            document.getElementById("ss5").classList.remove("sho");
+            document.getElementById("ss4").classList.add("sho1");
+            document.getElementById("ss5").classList.add("sho1");
+            
+           document.getElementById("i3").src= "https://conaturalintl.com/cdn/shop/products/Teatreefw_10f48fb1-7304-4906-89a0-a9b5b66819d6.jpg";
+
+      });
+
+      rd1.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss4").classList.remove("sho1");
+        document.getElementById("ss5").classList.remove("sho1");
+        document.getElementById("ss4").classList.add("sho");
+        document.getElementById("ss5").classList.add("sho");
+        
+        document.getElementById("i3").src = "https://conaturalintl.com/cdn/shop/products/Teatreefacewashface.jpg";
+
+      });
+
     } , 0);
 
     setInterval(function()
@@ -566,6 +697,52 @@ let df = document.getElementById("im1");
            
             comp13.src = "https://conaturalintl.com/cdn/shop/products/1.-Bottle-Front_c1abd5c4-9cf3-43e3-94ce-80d7e83b4d9a.jpg";
         });
+
+        let rd = document.getElementById("ss6");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss6").classList.remove("sho");
+        document.getElementById("ss7").classList.remove("sho");
+        document.getElementById("ss6").classList.add("sho1");
+        document.getElementById("ss7").classList.add("sho1");
+       
+        document.getElementById("i4").src = "https://conaturalintl.com/cdn/shop/products/2.-Bottle-Back_9c039886-d2fc-42cf-a547-5b3516fcc47e.jpg";
+    
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss6").classList.remove("sho1");
+            document.getElementById("ss7").classList.remove("sho1");
+            document.getElementById("ss6").classList.add("sho");
+            document.getElementById("ss7").classList.add("sho");
+           
+            document.getElementById("i4").src = "https://conaturalintl.com/cdn/shop/products/1.-Bottle-Front_c1abd5c4-9cf3-43e3-94ce-80d7e83b4d9a.jpg";
+        
+      });
+
+      let rd1 = document.getElementById("ss7");
+      rd1.addEventListener("mouseenter" , function()
+    {
+      document.getElementById("ss6").classList.remove("sho");
+      document.getElementById("ss7").classList.remove("sho");
+      document.getElementById("ss6").classList.add("sho1");
+      document.getElementById("ss7").classList.add("sho1");
+     
+      document.getElementById("i4").src = "https://conaturalintl.com/cdn/shop/products/2.-Bottle-Back_9c039886-d2fc-42cf-a547-5b3516fcc47e.jpg";
+  
+    });
+
+    rd1.addEventListener("mouseout" , function()
+    {
+      document.getElementById("ss6").classList.remove("sho1");
+          document.getElementById("ss7").classList.remove("sho1");
+          document.getElementById("ss6").classList.add("sho");
+          document.getElementById("ss7").classList.add("sho");
+         
+          document.getElementById("i4").src = "https://conaturalintl.com/cdn/shop/products/1.-Bottle-Front_c1abd5c4-9cf3-43e3-94ce-80d7e83b4d9a.jpg";
+      
+    });
     } , 0);
 
     setInterval(function(){
@@ -592,6 +769,58 @@ let df = document.getElementById("im1");
             document.getElementById("fer5").display = "none";
             comp14.src = "https://conaturalintl.com/cdn/shop/products/Rosefacewashface.jpg";
         });
+
+        let rd = document.getElementById("ss8");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss8").classList.remove("sho");
+            document.getElementById("ss9").classList.remove("sho");
+            document.getElementById("ss8").classList.add("sho1");
+            document.getElementById("ss9").classList.add("sho1");
+            
+            document.getElementById("fer5").display = "block";
+            document.getElementById("i5").src = "https://conaturalintl.com/cdn/shop/products/website._rose_facewash_small_f721b83e-fd29-41dd-a7bd-14057ae57a6f.jpg";
+        
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss8").classList.remove("sho");
+        document.getElementById("ss9").classList.remove("sho");
+        document.getElementById("ss8").classList.add("sho1");
+        document.getElementById("ss9").classList.add("sho1");
+        
+        document.getElementById("fer5").display = "block";
+        document.getElementById("i5").src = "https://conaturalintl.com/cdn/shop/products/website._rose_facewash_small_f721b83e-fd29-41dd-a7bd-14057ae57a6f.jpg";
+    
+      });
+
+
+      let rd1 = document.getElementById("ss9");
+        rd1.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss8").classList.remove("sho");
+            document.getElementById("ss9").classList.remove("sho");
+            document.getElementById("ss8").classList.add("sho1");
+            document.getElementById("ss9").classList.add("sho1");
+            
+            document.getElementById("fer5").display = "block";
+            document.getElementById("i5").src = "https://conaturalintl.com/cdn/shop/products/website._rose_facewash_small_f721b83e-fd29-41dd-a7bd-14057ae57a6f.jpg";
+        
+      });
+
+      rd1.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss8").classList.remove("sho");
+        document.getElementById("ss9").classList.remove("sho");
+        document.getElementById("ss8").classList.add("sho1");
+        document.getElementById("ss9").classList.add("sho1");
+        
+        document.getElementById("fer5").display = "block";
+        document.getElementById("i5").src = "https://conaturalintl.com/cdn/shop/products/website._rose_facewash_small_f721b83e-fd29-41dd-a7bd-14057ae57a6f.jpg";
+    
+      });
+
     } , 0);
 
     setInterval(function()
@@ -620,4 +849,62 @@ let df = document.getElementById("im1");
             
             comp16.src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
         });
+
+        let rd = document.getElementById("ss10");
+        rd.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss10").classList.remove("sho");
+            document.getElementById("ss11").classList.remove("sho");
+            document.getElementById("ss10").classList.add("sho1");
+            document.getElementById("ss11").classList.add("sho1");     
+            
+            document.getElementById("fer6").display = "block";
+
+            document.getElementById("i6").src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
+        
+      });
+
+      rd.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss10").classList.remove("sho");
+        document.getElementById("ss11").classList.remove("sho");
+        document.getElementById("ss10").classList.add("sho1");
+        document.getElementById("ss11").classList.add("sho1");     
+        
+        document.getElementById("fer6").display = "block";
+
+        document.getElementById("i6").src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
+    
+      });
+
+      let rd1 = document.getElementById("ss11");
+        rd1.addEventListener("mouseenter" , function()
+      {
+        document.getElementById("ss10").classList.remove("sho");
+            document.getElementById("ss11").classList.remove("sho");
+            document.getElementById("ss10").classList.add("sho1");
+            document.getElementById("ss11").classList.add("sho1");     
+            
+            document.getElementById("fer6").display = "block";
+
+            document.getElementById("i6").src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
+        
+      });
+
+      rd1.addEventListener("mouseout" , function()
+      {
+        document.getElementById("ss10").classList.remove("sho");
+        document.getElementById("ss11").classList.remove("sho");
+        document.getElementById("ss10").classList.add("sho1");
+        document.getElementById("ss11").classList.add("sho1");     
+        
+        document.getElementById("fer6").display = "block";
+
+        document.getElementById("i6").src = "https://conaturalintl.com/cdn/shop/products/Hairgrowthshampoo.jpg";
+    
+      });
+
+
     } , 0);
+
+    
