@@ -1485,24 +1485,21 @@ document.getElementById("next2").classList.add("sho");
 
     } , 0);
 
-    let ff = 0;
-    setInterval(
-        function()
-        {
+    let ffq = 0;
+    
+        
             console.log("hello hraet--------------------------");
             let rt = document.getElementById("ss0");
-            let flag1 = false;
+            let flag1 = 1;
             rt.addEventListener("click" , function()
             {
-                if(flag1==false)
+                if(flag1==1)
                 {
                     rt.innerHTML = '<i class="fa-solid fa-heart"></i>';
-                    flag1 = true;
-                    let r = Number(document.getElementById("he").firstElementChild.nextElementSibling.innerHTML);
-                    r = r + 1;
-                    let r1 = String(r);
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = r1;
-                    ff = r1;
+                    flag1 = 0;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             });
@@ -1515,10 +1512,9 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt2.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag2 = true;
-                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
-                    parseInt(rw);
-                    rw += 1;
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             });
@@ -1531,10 +1527,9 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt4.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag4 = true;
-                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
-                    parseInt(rw);
-                    rw += 1;
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             });
@@ -1547,10 +1542,9 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt6.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag6 = true;
-                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
-                    parseInt(rw);
-                    rw += 1;
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             });
@@ -1563,10 +1557,9 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt8.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag8 = true;
-                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
-                    parseInt(rw);
-                    rw += 1;
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             });
@@ -1579,16 +1572,14 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt10.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag10 = true;
-                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
-                    parseInt(rw);
-                    rw += 1;
-                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                    ffq = ffq + 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = ffq;
+                    console.log(ffq,"Main anser-->");
                 }
                 
             } );
                 
-        } , 0
-    );
+        
     
 
     setInterval(
