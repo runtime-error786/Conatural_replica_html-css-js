@@ -1485,24 +1485,26 @@ document.getElementById("next2").classList.add("sho");
 
     } , 0);
 
+    let ff = 0;
     setInterval(
         function()
         {
             console.log("hello hraet--------------------------");
             let rt = document.getElementById("ss0");
-            let flag = false;
+            let flag1 = false;
             rt.addEventListener("click" , function()
             {
-                if(flag==false)
+                if(flag1==false)
                 {
                     rt.innerHTML = '<i class="fa-solid fa-heart"></i>';
-                    flag = true;
-        
+                    flag1 = true;
+                    let r = Number(document.getElementById("he").firstElementChild.nextElementSibling.innerHTML);
+                    r = r + 1;
+                    let r1 = String(r);
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = r1;
+                    ff = r1;
                 }
-                else{
-                    rt.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag = false;
-                }
+                
             });
             
             let rt2 = document.getElementById("ss2");
@@ -1513,12 +1515,12 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt2.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag2 = true;
-        
+                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
+                    parseInt(rw);
+                    rw += 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
                 }
-                else{
-                    rt2.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag2 = false;
-                }
+                
             });
             
             let rt4 = document.getElementById("ss4");
@@ -1529,12 +1531,12 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt4.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag4 = true;
-        
+                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
+                    parseInt(rw);
+                    rw += 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
                 }
-                else{
-                    rt4.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag4 = false;
-                }
+                
             });
             
             let rt6 = document.getElementById("ss6");
@@ -1545,12 +1547,12 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt6.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag6 = true;
-        
+                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
+                    parseInt(rw);
+                    rw += 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
                 }
-                else{
-                    rt6.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag6 = false;
-                }
+                
             });
             
             let rt8 = document.getElementById("ss8");
@@ -1561,12 +1563,12 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt8.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag8 = true;
-        
+                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
+                    parseInt(rw);
+                    rw += 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
                 }
-                else{
-                    rt8.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag8 = false;
-                }
+                
             });
         
             let rt10 = document.getElementById("ss10");
@@ -1577,12 +1579,98 @@ document.getElementById("next2").classList.add("sho");
                 {
                     rt10.innerHTML = '<i class="fa-solid fa-heart"></i>';
                     flag10 = true;
+                    let rw = document.getElementById("he").firstElementChild.nextElementSibling.innerHTML;
+                    parseInt(rw);
+                    rw += 1;
+                    document.getElementById("he").firstElementChild.nextElementSibling.innerHTML = rw;
+                }
+                
+            } );
+                
+        } , 0
+    );
+    
+
+    setInterval(
+        function()
+        {
+            console.log("hello hraet--------------------------");
+            let rt = document.getElementById("ss1");
+            let flag = false;
+            rt.addEventListener("click" , function()
+            {
+                if(flag==false)
+                {
+                    rt.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag = true;
         
                 }
-                else{
-                    rt10.innerHTML = ' <i class="fa-sharp fa-light fa-circle-heart"></i>';
-                    flag10 = false;
+                
+            });
+            
+            let rt2 = document.getElementById("ss3");
+            let flag2 = false;
+            rt2.addEventListener("click" , function()
+            {
+                if(flag2==false)
+                {
+                    rt2.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag2 = true;
+        
                 }
+                
+            });
+            
+            let rt4 = document.getElementById("ss5");
+            let flag4 = false;
+            rt4.addEventListener("click" , function()
+            {
+                if(flag4==false)
+                {
+                    rt4.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag4 = true;
+        
+                }
+                
+            });
+            
+            let rt6 = document.getElementById("ss7");
+            let flag6 = false;
+            rt6.addEventListener("click" , function()
+            {
+                if(flag6==false)
+                {
+                    rt6.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag6 = true;
+        
+                }
+                
+            });
+            
+            let rt8 = document.getElementById("ss9");
+            let flag8 = false;
+            rt8.addEventListener("click" , function()
+            {
+                if(flag8==false)
+                {
+                    rt8.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag8 = true;
+        
+                }
+                
+            });
+        
+            let rt10 = document.getElementById("ss11");
+            let flag10 = false;
+            rt10.addEventListener("click" , function()
+            {
+                if(flag10==false)
+                {
+                    rt10.innerHTML = '<i class="fa-sharp fa-solid fa-circle-check"></i>';
+                    flag10 = true;
+        
+                }
+                
             } );
                 
         } , 0
